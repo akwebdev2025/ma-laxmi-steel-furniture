@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maa Laxmi Steel — Direct Factory Pricing</title>
+  <meta name="description" content="Heavy-duty steel furniture and direct factory pricing.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="brand" onclick="showPage('home')">
+        <div class="brand-mark">ML</div>
+        <div>
+          <strong>Maa Laxmi Steel</strong>
+          <span>Direct Factory Pricing • GST</span>
+        </div>
+      </div>
+      <div class="header-actions">
+        <button class="icon-btn" aria-label="Call">☎</button>
+        <button class="icon-btn" onclick="showPage('cart')" aria-label="Cart">🛒<b id="cartCount">0</b></button>
+      </div>
+    </header>
+
+    <main id="app"></main>
+
+    <nav class="bottom-nav">
+      <button onclick="showPage('home')" data-page="home">⌂<span>Home</span></button>
+      <button onclick="showPage('catalog')" data-page="catalog">▦<span>Catalog</span></button>
+      <button onclick="showPage('custom')" data-page="custom">☷<span>Custom</span></button>
+      <button onclick="showPage('cart')" data-page="cart">🛒<span>Inquiry</span></button>
+    </nav>
+
+    <button class="floating-whatsapp" onclick="openWhatsApp()">▣ Factory Direct</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
